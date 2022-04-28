@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #DBE2EF;
+    color: #112D4E;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.plafond {
+    margin-top: 10px;
+    width: 100%;
+    height: 185px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 25px;
+    color: #DBE2EF;
+    -webkit-text-stroke: 2px black;
+    background-image: url(../Background.jpg);
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100%;
+    width: 25%;
+}
+
+.nom {
+    position: relative;
+    width: 25%;
+}
+
+.photo {
+    width: 25%;
+    position: relative;
+    top: -8px;
+}
+
+.pfp {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.section-1-central {
+    display: flex;
+    justify-content: space-around;
+    border: solid 2px black;
+    width: 65%;
+    margin-left: 30px;
+}
+
+.central-Experience {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.central-diplome {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.section-1-competences {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    font-size: larger;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr {
+    height: 45px;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.line2 {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+}
+
+.quali {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 20%;
+    margin-left: 40px;
+    font-size: larger;
+}
+
+.hobbies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    border: 2px solid black;
+    width: 75%;
+    background-image: url(../chaloupe-oiseau-lac.jpg);
+    background-position: center;
+    background-size: 100%;
+    font-size: 25px;
+    color: #DBE2EF;
+    -webkit-text-stroke: 2px black;
+    border-radius: 15px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Me contacter</title>
+    <link rel="stylesheet" href="../Thibault/Ressources/CSS/style-contact.css">
+</head>
+
+<body>
+    <div class="all">
+        <div class="header">
+            <h1>Me contacter</h1>
+        </div>
+        <h2>Par voie postale</h2>
+        <h3>Capitainerie du port de Brest, à l'attention de Titouan</h3>
+        <h2>Par mail</h2>
+        <div class="form">
+            <form action="https://httpbin.org/post" method="post">
+                <div class="sup">
+                    <div class="col1">
+                        <label for="last_name">Nom :</label>
+                        <input type="text" id="last_name" name="last_name" required>
+                        <label for="first_name">Prénom :</label>
+                        <input type="text" id="first_name" name="first_name" required>
+                        <label for="mail">e-mail :</label>
+                        <input type="email" id="mail" name="user_mail" required>
+                        <label for="msg">Message :</label>
+                        <textarea id="msg" name="user_message" required></textarea>
+                    </div>
+                    <div class="col2">
+                        <p>Vous me contacter pour:</p>
+                        <div class="capitainage">
+                            <input type="radio" id="capitainage" name="raison de contact" value="capitainage" required>
+                            <label for="capitainage">Capitainage</label>
+                        </div>
+                        <div class="chaloupage"><input type="radio" id="chaloupage" name="raison de contact"
+                                value="chaloupage" required>
+                            <label for="chaloupage">Chaloupage</label>
+                        </div>
+                        <label for="boat_select">Choisissez un Bateau:</label>
+
+                        <select name="boat" id="boat_select" required>
+                            <option value="">--Bateau de prédilection--</option>
+                            <option value="bricks">Bricks</option>
+                            <option value="bateau-gonflable">Bateau Gonflable</option>
+                            <option value="frigate">Frégate</option>
+                            <option value="zodiac">Zodiac</option>
+                            <option value="porte-avion">Porte-Avion</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="button">
+                    <button type="submit">Envoyer le mail à Titouan</button>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+    <div class="footer">
+        <a href="./index.html">
+            <h2>Retour au CV</h2>
+        </a>
+        <a href="./Hobby.html">
+            <h2>Le retapage de Chaloupe</h2>
+        </a>
+    </div>
+</body>
+
+</html>
