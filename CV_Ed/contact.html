@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
+
+    <title>CONTACT</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>EDOUARD PELISSOT</h1>
+        <img id="photo"
+            src="https://media-exp1.licdn.com/dms/image/C4D03AQGzq-VmFpBjKw/profile-displayphoto-shrink_800_800/0/1524817581211?e=1653523200&v=beta&t=-_qwATy3d34IpGwYdTKLR0uySBHiU-8p_WNP5CygkcE"
+            alt="Photo profil">
+
+    </header>
+    <main>
+
+        <section class="corps">
+            <div class="TitrePage">
+
+                <h2>FORMULAIRE DE CONTACT</h2>
+
+            </div>
+
+            <div class="form">
+
+
+                <form action="https://httpbin.org/post" method="post">
+                    <div>
+                        <label for="name">Nom :</label><br>
+                        <input required type="text" id="name" name="user_name">
+                    </div>
+
+
+                    <div>
+                        <label for="mail">e-mail&nbsp;:</label><br>
+                        <input required type="email" id="mail" name="user_mail">
+                    </div>
+                    <br>
+
+                    <label for="pet-select">Choose a pet:</label><br>
+
+                    <select name="pets" id="pet-select">
+                        <option value="">--Please choose an option--</option>
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+
+
+                    </select><br><br>
+
+
+
+                    <div>
+                        <input type="radio" id="professionel" name="drone" value="professionel" checked>
+                        <label for="professionel">Professionel</label>
+
+                        <input type="radio" id="loisirs" name="drone" value="loisirs">
+                        <label for="loisirs">Loisirs</label>
+                    </div><br>
+
+
+
+
+                    <div>
+                        <label for="msg">Message :</label><br>
+                        <textarea required placeholder="écrire ici..." id="msg" name="user_message"></textarea>
+
+                    </div>
+                    <br>
+                    <div class="button">
+                        <button type="submit">Envoyer le message</button>
+                    </div>
+
+                    <br><br><br>
+                </form>
+
+            </div>
+
+
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <h3><a style="color: rgb(224, 221, 170)" href="index.html">PAGE PRINCIPALE</a></h3>
+        <h3><a style="color: rgb(224, 221, 170)" href="hobby.html">HOBBIES</a></h3>
+        <h3><a style="color: rgb(224, 221, 170)" href="contact.html">CONTACT</a></h3>
+    </footer>
+</body>
+
+</html>

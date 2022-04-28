@@ -1,0 +1,139 @@
+.color {
+    background-color: red;
+}
+
+main {
+    background-color: rgb(224, 221, 170);
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Hurricane', cursive; */
+}
+header{
+    color: rgb(224, 221, 170);
+    background-color: rgb(32, 50, 57);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 30%;
+
+}
+
+body {
+min-height: 100vh;
+margin: 0%;
+}
+
+main{
+    height: 100%;
+    min-height: 70vh;
+}
+
+
+
+footer{
+    color: rgb(224, 221, 170);
+    background-color: rgb(32, 50, 57);
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    position: sticky;
+    bottom: 0;
+    /* width: 100%; */
+   
+}
+.corps {
+    border: 2px solid slategray;
+    width: 100%;
+    padding-left: 40px;
+}
+
+.titre {   
+    
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+h2 {
+    font: italic bold 48px/48px "cursive";
+}
+
+h3 {
+    font-style: italic;
+}
+
+table, td {
+
+    border: 1px solid slategray;
+    border-collapse: collapse;
+}
+
+table {
+    width: 800px;
+}
+
+thead{
+    background-color: #3f87a6;
+    color: #fff;
+}
+
+.gras {
+    font-weight: bold;
+}
+
+.TitrePage {
+
+    text-align: center;
+    padding: 5px;
+}
+
+.experience {
+    border: 2px solid black;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.profil {
+    text-align: justify;
+}
+
+.coordonnées {
+    font-family: cursive;
+}
+
+#photo {
+    border-radius: 50%;
+    width: 200px;
+    border: 2px solid white
+    
+    }
+
+.encart {
+    color: rgb(224, 221, 170);
+    background-color: rgb(20, 30, 39);
+    padding: 10px;
+    width: 30%;
+}
+.form {
+    margin: 10px;
+    padding: 5%;
+    /* text-align: center; */
+    border: 2px solid black;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.radio {
+    display: flex;
+    justify-content:space-around
+}
