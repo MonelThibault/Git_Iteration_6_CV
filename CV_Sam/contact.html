@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+
+<body>
+    <header>
+        <img class="photo_profil" src="./img/logo.jpg" alt="Logo">
+        <div class="text_ban">
+            <h1>Nom Prénom</h1>
+            <p class="banniere">Reporter</p>
+        </div>
+    </header>
+    <div class="menu">
+        <a href="index2.html">Accueil</a>
+        <a href="xp.html">Expériences</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="centre_contact">
+        <h2>Me contacter</h2>
+        <form action="https://httpbin.org/get" method="get" id="formulaire">
+
+            <div class="radio">
+                <label for="media">Vous êtes : </label><br>
+                <input type="radio" id="media" name="qui" value="media"> Un media
+                <input type="radio" id="sponsor" name="qui" value="sponsor"> Un sponsor
+                <input type="radio" id="autre" name="qui" value="autre"> Autre
+            </div>
+
+            <div class="text">
+                <label for="nom">Votre nom : </label>
+                <input type="text" id="nom" name="nom" required minlength="1" maxlength="15"><br>
+            </div>
+
+            <div class="liste">
+                <label for="recherche">Vous cherchez : </label><br>
+                <select name="recherche" id="recherche">
+                    <option value="prof">Un reporter de terrain</option>
+                    <option value="cam">Un caméraman</option>
+                    <option value="info">Des informations supplémentaires</option>
+                </select>
+            </div>
+
+            <div class="textarea">
+                <label for="complement">Laissez votre message : </label>
+                <textarea id="complement" name="complement" rows="5" cols="33" placeholder="..."></textarea>
+            </div>
+
+            <div class="submit">
+                <input type="submit">
+            </div>
+
+        </form>
+    </div>
+    <footer>
+        <div>
+            <h3>Contact</h3>
+            <p>
+                456 rue de quelque part <br>
+                Email: nom.prenom@mail.com <br>
+                Tel.: 06 06 06 06 06
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
