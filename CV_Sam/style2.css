@@ -1,0 +1,166 @@
+@font-face {
+    font-family:rock_salt;
+    src: url("./font/RockSalt-Regular.ttf");
+}
+@font-face {
+    font-family:fasthand;
+    src: url("./font/Fasthand-Regular.ttf");
+}
+@font-face {
+    font-family:hubballi;
+    src: url("./font/Hubballi-Regular.ttf");
+}
+
+body{
+    margin:0px;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+}
+/* Banniere */
+header{
+    width:100%;
+    display:flex;
+    background-color: #072227;
+}
+.text_ban{
+    flex-grow:4;
+    text-align: center;
+    color:#35858B;
+}
+h1{
+    font-family:rock_salt;
+    margin-bottom: 0px;
+}
+.banniere{
+    font-family: fasthand;
+    margin-top: 0px;
+    font-size: 20pt;
+    /*padding-left: 35%;*/
+}
+.photo_profil{
+    max-width:20%;
+    border-radius: 50%;
+    padding:5px;
+    flex-grow:1;
+
+}
+
+/* Menu */
+.menu{
+    background-color: #35858B;
+    display: flex;
+   
+}
+a{
+    flex-grow: 1;
+    text-align: center;
+    border:solid black 2px;
+    padding:5px;
+    color:#072227;
+    text-decoration: none;
+    font-family: hubballi;
+    font-weight: bold;
+}
+
+/* Footer */
+footer{
+    width:100%;
+    min-height:120px;
+    display:flex;
+    justify-content: space-around;
+    background-color: #072227;
+    color:#6d8586;
+    font-family: hubballi;
+    margin-top: auto;
+    
+}
+
+/* Content index */
+
+.gauche_index{
+    max-width:40%;
+    height:inherit;
+}
+.centre_index{
+    font-family: hubballi;
+    display: flex;
+    justify-content: space-around;
+    padding:5%;
+    
+}
+
+/* Content XP */
+
+.centre_xp{
+    font-family: hubballi;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top:10px;
+}
+tbody{
+    display:flex;
+    flex-direction:column ;
+    border: solid #35858B 2px;
+    border-collapse: collapse;
+    
+}
+tr{
+    margin:5%;
+}
+td{
+    border: solid #35858B 2px;
+  
+}
+.intitule{
+    width: 70px;
+    text-align:center;
+}
+th{
+    font-size: 20pt;
+
+}
+
+/* Content Hobbies */
+
+.centre_hobbies{
+    font-family: hubballi;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    
+
+}
+ol{
+    display: inline-block;
+    font-style: italic;
+}
+
+/* Content Contact */
+.centre_contact{
+    font-family: hubballi;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: left;
+}
+.centre_contact>h2{
+    text-align: center;
+}
+label{
+    font-weight: bold;
+    display:block;
+}
+form{
+    display:flex;
+    flex-direction: column;
+}
+input[radio]{
+    display: inline-flex;
+    margin-right: 6px;
+}
+form>div{
+    margin-bottom: 50px;
+}
+input[textarea] input[text]{
+    margin-top: 15px;
+}
